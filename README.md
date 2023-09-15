@@ -7,4 +7,4 @@
 
 # Resumo do Projeto
 
-> Integrando a base de dados FooDB - que fornece informação nutricional sobre os alimentos - com a Food Consumption Data - que fornece informação sobre hábitos alimentares na Europa - analisaremos o perfil nutricional médio de diferentes países europeus, ressaltando deficiências e pontos fortes.
+> Integrando a base de dados FooDB - que fornece informação nutricional sobre os alimentos - com a Food Consumption Data - que fornece informação sobre hábitos alimentares na Europa - analisaremos o perfil nutricional médio de diferentes países europeus e diferentes grupos sociais de cada país, ressaltando deficiências e pontos fortes.

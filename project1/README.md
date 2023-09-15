@@ -5,12 +5,10 @@
 
 ## Motivação e Contexto
 
-> Analisaremos o perfil nutricional médio de diferentes países europeus, ressaltando deficiências e pontos fortes.
+> O propósito desse projeto é analisar e comparar o perfil nutricional médio de diferentes países europeus, ressaltando deficiências e pontos fortes da dieta de cada país.
 
 
 ## Bases de Dados
-
-> Elencar as bases de dados fonte utilizadas no projeto.
 
 título da base | link | breve descrição
 ----- | ----- | -----
@@ -39,34 +37,26 @@ ARMÁRIO(_Código_, Tamanho, Ocupante)
 > Liste aqui as perguntas de pesquisa/análise. Nem todas as perguntas precisam de implementação associada. É possível haver perguntas em que a solução é apenas descrita para demonstrar o potencial da base. Abaixo são ilustradas três perguntas, mas pode ser um número maior a critério da equipe.
 
 #### Pergunta/Análise 1
-> * Pergunta 1
->   
->   * Explicação sucinta da análise que será feita.
+> * Quais os grupos de alimentos/nutrientes que menos/mais aparecem na dieta de cada país europeu e qual o perfil nutricional desses grupos?
+>
+>   * Para cada país disponível na base, montaremos seu perfil nutricional integrando os dados fornecidos por ambas as bases. Essa informação pode ser utilizada para avaliar quais os grupos alimentares que mais afetam a cadeia alimentar, auxiliando na avaliação de riscos realizada por agentes de saúde.
 
 #### Pergunta/Análise 2
-> * Pergunta 2
+> * Quais os grupos de alimentos/nutrientes que menos/mais aparecem em cada grupo avaliado?
 >   
->   * Explicação sucinta da análise que será feita.
+>   * A base da EFSA apresenta dados divididos por diversos grupos sociais, apresentando divisões por faixa etária, gênero, etc. Associando as duas bases, a dieta de cada um desses grupos pode ser avaliada separadamente.
 
 #### Pergunta/Análise 3
-> * Pergunta 3
->   
->   * Explicação sucinta da análise que será feita.
+> * Quais alimentos complementam a dieta de cada grupo estudado para balanceá-la?
 
 ### Perguntas/Análise Propostas mas Não Implementadas
 
 #### Pergunta/Análise 1
-> * Pergunta 1
+> * Qual o país europeu com perfil nutricional mais completo?
 >   
->   * Explicação em linhas gerais de como a base pode ser usada para responder esta pergunta e a sua relevância.
+>   * Utilizando as duas bases escolhidas, podemos definir um padrão de perfil nutricional e buscar o país que mais se adequa a esse padrão.
 
 #### Pergunta/Análise 2
-> * Pergunta 2
+> * Qual o grupo social/faixa etária com perfil nutricional mais completo?
 >   
->   * Explicação em linhas gerais de como a base pode ser usada para responder esta pergunta e a sua relevância.
-
-#### Pergunta/Análise 3
-> * Pergunta 3
->   
->   * Explicação em linhas gerais de como a base pode ser usada para responder esta pergunta e a sua relevância.
-
+>   * Utilizando as duas bases escolhidas, podemos definir um padrão de perfil nutricional e buscar o grupo que mais se adequa a esse padrão.
