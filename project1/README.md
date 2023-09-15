@@ -5,14 +5,18 @@
 
 ## Motivação e Contexto
 
-> Descrição do tema do projeto, incluindo motivação e contexto gerador.
+> Analisaremos o perfil nutricional médio de diferentes países europeus, ressaltando deficiências e pontos fortes.
+
 
 ## Bases de Dados
+
 > Elencar as bases de dados fonte utilizadas no projeto.
 
 título da base | link | breve descrição
 ----- | ----- | -----
-`<título da base>` | `<link para a página da base>` | `<breve descrição da base>`
+`FooDB` | `https://foodb.ca` | `base de dados sobre alimentos, sua química, seus ingredientes e nutrientes.`
+`Food Consumption Data` | `https://www.efsa.europa.eu/en/data-report/food-consumption-data` | `dados sobre consumo de alimentos da população europeia.`
+
 
 ## Modelo Conceitual
 
