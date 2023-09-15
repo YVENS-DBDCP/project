@@ -22,19 +22,17 @@ título da base | link | breve descrição
 > ![ER Taxi](images/er-taxi.png)
 
 ## Modelos Lógicos
-
-> Coloque aqui o modelo lógico relacional dos bancos de dados relacionados ao modelos conceitual. Sugere-se o formato a seguir.
-
-> Exemplo de modelo lógico relacional
 ~~~
-PESSOA(_Código_, Nome, Telefone)
-ARMÁRIO(_Código_, Tamanho, Ocupante)
-  Ocupante chave estrangeira -> PESSOA(Código)
+ALIMENTO(_Nome_, Grupo, Subgrupo, Macronutrientes, Componentes)
+
+CONSUMIDORES(_Code_, Pais, Ano, Grupo Populacional)
+
+CONSUMO(_NomeAlimento_, _CODE_, Número de Consumidores, Porcentagem de Consumidores)
+  NomeAlimento chave estrangeira -> ALIMENTO(Nome)
+  CODE chave estrangeira -> CONSUMIDORES(Code)
 ~~~
 
 ## Perguntas de Pesquisa/Análise
-
-> Liste aqui as perguntas de pesquisa/análise. Nem todas as perguntas precisam de implementação associada. É possível haver perguntas em que a solução é apenas descrita para demonstrar o potencial da base. Abaixo são ilustradas três perguntas, mas pode ser um número maior a critério da equipe.
 
 #### Pergunta/Análise 1
 > * Quais os grupos de alimentos/nutrientes que menos/mais aparecem na dieta de cada país europeu e qual o perfil nutricional desses grupos?
