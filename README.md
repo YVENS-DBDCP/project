@@ -9,4 +9,4 @@
 
 # Resumo do Projeto
 
-    Texto resumindo o projeto.
+> Texto resumindo o projeto.
